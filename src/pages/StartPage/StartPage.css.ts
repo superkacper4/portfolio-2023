@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const StyledStartPage = styled.section`
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100vh;
+  width: 100vw;
   background: linear-gradient(-45deg, #3b1c94, #281758, #6c195a);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
@@ -12,6 +12,7 @@ const StyledStartPage = styled.section`
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow: hidden;
 
   @keyframes gradient {
     0% {
