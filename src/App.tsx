@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Nav from "./components/Nav";
 import StartPage from "./pages/StartPage";
@@ -16,7 +15,7 @@ function App() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400&display=swap"
           rel="stylesheet"
         />
       </Helmet>
