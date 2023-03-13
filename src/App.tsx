@@ -3,27 +3,30 @@ import logo from "./logo.svg";
 import "./App.css";
 import Nav from "./components/Nav";
 import StartPage from "./pages/StartPage";
+import AboutPage from "./pages/AboutPage";
+import ProjectsPage from "./pages/ProjectsPage";
+import ContactPage from "./pages/ContactPage";
+import { Helmet } from "react-helmet";
+import GlobalStyle from "./styles/GlobalStyles";
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
+      <Helmet>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap"
+          rel="stylesheet"
+        />
+      </Helmet>
+      <GlobalStyle />
       <Nav />
       <StartPage />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <AboutPage />
+      <ProjectsPage />
+      <ContactPage />
+    </main>
   );
 }
 
