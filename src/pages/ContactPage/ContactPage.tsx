@@ -8,7 +8,7 @@ import { StyledContactPage, StyledLinksWrapper } from "./ContactPage.css";
 
 const ContactPage = () => {
   return (
-    <StyledContactPage id="about">
+    <StyledContactPage id="contact">
       <H3>Made by Kacper</H3>
       <P>kacperkuczewski@yahoo.com</P>
       <StyledLinksWrapper>
