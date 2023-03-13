@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <section>
+    <section id="about">
       <h2>Kacper Kuczewski</h2>
     </section>
   );

@@ -1,10 +1,15 @@
 import React from "react";
+import { StyledA, StyledNav, StyledNavLink } from "./Nav.css";
 
 const Nav = () => {
   return (
-    <nav>
-      <p>x</p>
-    </nav>
+    <StyledNav>
+      <StyledNavLink>
+        <StyledA href="#about">About</StyledA>
+      </StyledNavLink>
+      <StyledNavLink>Projects</StyledNavLink>
+      <StyledNavLink>Contact</StyledNavLink>
+    </StyledNav>
   );
 };
 
