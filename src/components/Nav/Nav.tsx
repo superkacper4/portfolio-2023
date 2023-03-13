@@ -8,8 +8,12 @@ const Nav = () => {
       <StyledNavLink>
         <StyledA href="#about">About</StyledA>
       </StyledNavLink>
-      <StyledNavLink>Projects</StyledNavLink>
-      <StyledNavLink>Contact</StyledNavLink>
+      <StyledNavLink>
+        <StyledA href="#projects">Projects</StyledA>
+      </StyledNavLink>
+      <StyledNavLink>
+        <StyledA href="#contact">Contact</StyledA>
+      </StyledNavLink>
     </StyledNav>
   );
 };

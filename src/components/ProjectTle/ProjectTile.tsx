@@ -8,6 +8,8 @@ import {
 } from "./ProjectTile.css";
 import H3 from "../H3";
 import AnimationWrapper from "../AnimationWrapper";
+import { GitHub, Link } from "react-feather";
+import SpanPadding from "../SpanPadding";
 
 interface ProjectTileProps {
   title: string;
@@ -28,8 +30,17 @@ const ProjectTile = ({ title, desc, links }: ProjectTileProps) => {
       <AnimationWrapper>
         {links.map((link, index) => (
           <StyledProjectLink>
-            <StyledA href={link} about="_blank">
-              {index % 2 === 0 ? "Repository" : "Live"}
+            <StyledA href={link} target="_blank">
+              {index % 2 === 0 ? (
+                <>
+                  <GitHub />
+                  <SpanPadding>Repository</SpanPadding>
+                </>
+              ) : (
+                <>
+                  <Link /> <SpanPadding>Live</SpanPadding>
+                </>
+              )}
             </StyledA>
           </StyledProjectLink>
         ))}

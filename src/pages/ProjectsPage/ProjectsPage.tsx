@@ -6,7 +6,7 @@ import { StyledProjectsPage, StyledProjectsWrapper } from "./ProjectsPage.css";
 
 const ProjectsPage = () => {
   return (
-    <StyledProjectsPage>
+    <StyledProjectsPage id="projects">
       <H2>Projects</H2>
       <StyledProjectsWrapper>
         {PROJECTS_LIST.map((project) => (
