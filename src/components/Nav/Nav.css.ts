@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import A from "../A";
 
 const StyledNav = styled.nav`
   width: 100vw;
@@ -8,7 +9,7 @@ const StyledNav = styled.nav`
   color: white;
   font-size: 20px;
   display: flex;
-  background-color: rgba(59, 28, 148, 0.3);
+  background-color: rgba(59, 28, 148, 0.7);
 `;
 
 const StyledNavLink = styled.div`
@@ -29,9 +30,7 @@ const StyledNavLink = styled.div`
   }
 `;
 
-const StyledA = styled.a`
-  text-decoration: none;
-  color: white;
+const StyledA = styled(A)`
   width: 100%;
   height: 100%;
   display: flex;
