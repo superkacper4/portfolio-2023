@@ -7,7 +7,7 @@ const StartPage = () => {
   return (
     <StyledStartPage>
       <H1>Kacper Kuczewski</H1>
-      <H3>Junior Fullstack Developer</H3>
+      <H3>Fullstack Developer</H3>
     </StyledStartPage>
   );
 };
