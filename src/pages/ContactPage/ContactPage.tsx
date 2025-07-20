@@ -13,11 +13,11 @@ const ContactPage = () => {
       <P>kacperkuczewski@yahoo.com</P>
       <StyledLinksWrapper>
         <A href="https://www.linkedin.com/in/kacper-kuczewski/" target="_blank">
-          <Linkedin /> <SpanPadding>LinkedIN</SpanPadding>
+          <Linkedin /> <SpanPadding>LinkedIn</SpanPadding>
         </A>
         <A href="https://github.com/superkacper4" target="_blank">
           <GitHub />
-          <SpanPadding>Live</SpanPadding>
+          <SpanPadding>GitHub</SpanPadding>
         </A>
       </StyledLinksWrapper>
     </StyledContactPage>

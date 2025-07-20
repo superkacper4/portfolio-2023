@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import A from "../A";
+import { Link } from "@tanstack/react-router";
 
 const StyledNav = styled.nav`
   width: 100vw;
@@ -9,7 +9,7 @@ const StyledNav = styled.nav`
   color: white;
   font-size: 20px;
   display: flex;
-  background-color: rgba(59, 28, 148, 0.7);
+  background-color: #200145;
 `;
 
 const StyledNavLink = styled.div`
@@ -18,11 +18,12 @@ const StyledNavLink = styled.div`
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid #abbcff;
+  border-right: 1px solid #abbcff;
   transition: 0.2s background-color;
 
-  &:nth-child(2) {
+  &:nth-last-child() {
+    border-right: 0px;
     border-left: 1px solid #abbcff;
-    border-right: 1px solid #abbcff;
   }
 
   &:hover {
@@ -30,12 +31,14 @@ const StyledNavLink = styled.div`
   }
 `;
 
-const StyledA = styled(A)`
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
+const StyledA = styled(Link)`
   align-items: center;
+  color: white;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+  text-decoration: none;
 `;
 
 export { StyledNav, StyledNavLink, StyledA };

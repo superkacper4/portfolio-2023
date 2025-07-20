@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "@tanstack/react-router";
 
 const A = styled.a`
   text-decoration: none;

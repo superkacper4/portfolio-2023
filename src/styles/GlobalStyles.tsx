@@ -1,10 +1,14 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+
+*{
+  box-sizing: border-box;
+}
+
 html{
     scroll-behavior: smooth;
-    background-color: #3b1c94;
-
+    background-color: #120141;
 }
 
   body {
@@ -12,6 +16,10 @@ html{
     padding: 0;
     font-family: 'Titillium Web', sans-serif;
     color: white;
+    animation: helloThere .5s ;
+  }
+
+  main, section{
     animation: helloThere .5s ;
   }
 

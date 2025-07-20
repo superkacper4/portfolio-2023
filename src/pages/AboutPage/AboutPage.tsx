@@ -10,13 +10,12 @@ const AboutPage = () => {
       <H2>About</H2>
       <AnimationWrapper>
         <P>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          I am interested in front-end development for six years and I am
+          getting better and better since then. I started with simple HTML, CSS
+          and JavaScript websites, but now my favorite stack is React with
+          TypeScript. I have experience with back-end technologies. For past six
+          months I also started creating fullstack apps. I have engineer degree
+          from February 2023, when I graduated.
         </P>
       </AnimationWrapper>
     </StyledAboutPage>
