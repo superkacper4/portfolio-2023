@@ -27,37 +27,37 @@ const rootRoute = createRootRoute({
 
 const indexRoute = createRoute({
   getParentRoute: () => rootRoute,
-  path: "/",
+  path: "/portfolio-2023",
   component: App,
 });
 
 const aboutRoute = createRoute({
   getParentRoute: () => rootRoute,
-  path: "/#about",
+  path: "/portfolio-2023#about",
   component: App,
 });
 
 const projectsRoute = createRoute({
   getParentRoute: () => rootRoute,
-  path: "/#projects",
+  path: "/portfolio-2023#projects",
   component: App,
 });
 
 const contactRoute = createRoute({
   getParentRoute: () => rootRoute,
-  path: "/#contact",
+  path: "/portfolio-2023#contact",
   component: App,
 });
 
 const blogRoute = createRoute({
   getParentRoute: () => rootRoute,
-  path: "/blog",
+  path: "/portfolio-2023/blog",
   component: BlogPage,
 });
 
 export const postRoute = createRoute({
   getParentRoute: () => rootRoute,
-  path: "/blog/$postId",
+  path: "/portfolio-2023/blog/$postId",
   component: BlogPostPage,
 });
 
@@ -80,7 +80,7 @@ declare module "@tanstack/react-router" {
 }
 
 const root = ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement
+  document.getElementById("root") as HTMLElement,
 );
 
 root.render(
@@ -95,7 +95,7 @@ root.render(
     </Helmet>
     <GlobalStyle />
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </React.StrictMode>,
 );
 
 // If you want to start measuring performance in your app, pass a function

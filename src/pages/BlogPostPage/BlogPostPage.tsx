@@ -14,7 +14,7 @@ import { gfmHeadingId } from "marked-gfm-heading-id";
 marked.use(gfmHeadingId());
 
 const BlogPostPage = () => {
-  const { postId } = useParams({ from: "/blog/$postId" });
+  const { postId } = useParams({ from: "/portfolio-2023/blog/$postId" });
   const post = POSTS.find((x) => x.url === postId);
 
   if (!post) return null;
@@ -22,7 +22,7 @@ const BlogPostPage = () => {
 
   return (
     <StyledBlogPostWrapper>
-      <StyledGoBack to="/blog">
+      <StyledGoBack to="/portfolio-2023/blog">
         <ArrowLeft /> Go back
       </StyledGoBack>
       <StyledBlogPostTitle>

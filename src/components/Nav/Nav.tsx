@@ -5,22 +5,22 @@ const Nav = () => {
   return (
     <StyledNav>
       <StyledNavLink>
-        <StyledA to="/#about">
+        <StyledA to="/portfolio-2023/#about">
           <Heart /> <SpanPadding>About</SpanPadding>
         </StyledA>
       </StyledNavLink>
       <StyledNavLink>
-        <StyledA to="/#projects">
+        <StyledA to="/portfolio-2023/#projects">
           <GitBranch /> <SpanPadding>Projects</SpanPadding>
         </StyledA>
       </StyledNavLink>
       <StyledNavLink>
-        <StyledA to="/#contact">
+        <StyledA to="/portfolio-2023/#contact">
           <Mail /> <SpanPadding>Contact</SpanPadding>
         </StyledA>
       </StyledNavLink>
       <StyledNavLink>
-        <StyledA to="/blog">
+        <StyledA to="/portfolio-2023/blog">
           <Edit2 /> <SpanPadding>BLOG</SpanPadding>
         </StyledA>
       </StyledNavLink>
