@@ -1,7 +1,6 @@
 {
   "name": "portfolio-2023",
   "version": "1.0.0",
-  "homepage": "https://superkacper4.github.io/portfolio-2023/",
   "private": true,
   "dependencies": {
     "@tanstack/react-router": "^1.97.3",

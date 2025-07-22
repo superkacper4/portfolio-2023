@@ -23,7 +23,6 @@ Initial idea was to write posts as HTML code, so to use eg. `h1`, `p` tags etc. 
 Then I found out about `marked` [link](https://www.npmjs.com/package/marked) package. It's perfect for converting markdown to html, but it doesn't help with the import issue. Solution was to use `raw-loader` [link](https://www.npmjs.com/package/raw-loader), `react-app-rewired` [link](https://www.npmjs.com/package/react-app-rewired) and `customize-cra` [link](https://www.npmjs.com/package/customize-cra). All of those combined required adding config file:
 ```ts
 const { override, addWebpackModuleRule } = require('customize-cra');
-
 module.exports = override(
   addWebpackModuleRule({
     test: /\.md$/,
