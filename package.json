@@ -1,7 +1,7 @@
 {
   "name": "portfolio-2023",
-  "version": "0.1.0",
-  "homepage": "https://superkacper4.github.io/portfolio-2023",
+  "version": "1.0.0",
+  "homepage": "https://superkacper4.github.io/portfolio-2023/",
   "private": true,
   "dependencies": {
     "@tanstack/react-router": "^1.97.3",
@@ -13,6 +13,7 @@
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "framer-motion": "^10.2.5",
+    "gh-pages": "^6.3.0",
     "marked": "^15.0.11",
     "marked-gfm-heading-id": "^4.1.2",
     "raw-loader": "^4.0.2",
