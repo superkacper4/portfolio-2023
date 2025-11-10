@@ -10,6 +10,10 @@ const StyledBlogPostWrapper = styled.section`
   padding-top: 100px;
   width: 100%;
   min-height: 100vh;
+
+  @media (max-width: 600px) {
+    padding: 12px;
+  }
 `;
 
 const StyledBlogPost = styled.div`
@@ -33,6 +37,10 @@ const StyledBlogPost = styled.div`
     color: #b6acc2;
     padding: 2px;
   }
+
+  @media (max-width: 600px) {
+    padding: 15px;
+  }
 `;
 
 const StyledBlogPostTitle = styled.div`
@@ -42,6 +50,11 @@ const StyledBlogPostTitle = styled.div`
   width: 100%;
   max-width: 800px;
   padding-bottom: 36px;
+
+  @media (max-width: 600px) {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 `;
 
 const StyledGoBack = styled(Link)`

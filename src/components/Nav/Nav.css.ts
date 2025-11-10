@@ -39,6 +39,12 @@ const StyledA = styled(Link)`
   justify-content: center;
   width: 100%;
   text-decoration: none;
+
+  @media (max-width: 600px) {
+    svg {
+      display: none;
+    }
+  }
 `;
 
 export { StyledNav, StyledNavLink, StyledA };

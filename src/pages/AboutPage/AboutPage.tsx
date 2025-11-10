@@ -10,12 +10,12 @@ const AboutPage = () => {
       <H2>About</H2>
       <AnimationWrapper>
         <P>
-          I am interested in front-end development for six years and I am
-          getting better and better since then. I started with simple HTML, CSS
-          and JavaScript websites, but now my favorite stack is React with
-          TypeScript. I have experience with back-end technologies. For past six
-          months I also started creating fullstack apps. I have engineer degree
-          from February 2023, when I graduated.
+          I've been immersed in the world of web development for seven years,
+          steadily expanding my skills. My journey started with front-end, but
+          over time I went deeper into back-end and I am currently focusing
+          mostly on developing myself in this area. Over the past three years,
+          I've delved into the exciting realm of full-stack development, which
+          allows me to build my own projects in the most efficient way.
         </P>
       </AnimationWrapper>
     </StyledAboutPage>

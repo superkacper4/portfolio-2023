@@ -10,6 +10,7 @@ const StyledBlog = styled(Link)`
   justify-content: space-between;
   padding: 1rem;
   margin: 2rem;
+  margin-top: 0;
   max-width: 800px;
   width: 100%;
   text-decoration: none;
@@ -25,6 +26,13 @@ const StyledBlog = styled(Link)`
 
   & > p {
     color: white;
+    padding: 0;
+  }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
   }
 `;
 
