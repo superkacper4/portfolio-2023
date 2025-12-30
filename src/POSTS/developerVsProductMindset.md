@@ -1,4 +1,4 @@
-_Table of content_
+**Table of content**
 
 - [Intro](#intro)
 - [What is product sense interview about?](#what-is-product-sense-interview-about)
