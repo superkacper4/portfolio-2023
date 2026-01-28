@@ -1,7 +1,5 @@
 import helloWorldPost from "./POSTS/helloWorld.md";
 import developerVsProductMindsetPost from "./POSTS/developerVsProductMindset.md";
-// @ts-expect-error -- ok
-import developerVsProductMindsetPost from "./POSTS/developerVsProductMindset.md";
 import technicalDebtEverydayPost from "./POSTS/technicalDebtEveryday.md";
 
 export type PostType = {
