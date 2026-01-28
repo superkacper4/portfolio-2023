@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import A from "../A";
-import AnimationWrapper from "../AnimationWrapper";
 
 const StyledProjectTile = styled.div`
   min-width: 200px;

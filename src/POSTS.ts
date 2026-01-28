@@ -1,5 +1,8 @@
 import helloWorldPost from "./POSTS/helloWorld.md";
 import developerVsProductMindsetPost from "./POSTS/developerVsProductMindset.md";
+// @ts-expect-error -- ok
+import developerVsProductMindsetPost from "./POSTS/developerVsProductMindset.md";
+import technicalDebtEverydayPost from "./POSTS/technicalDebtEveryday.md";
 
 export type PostType = {
   content: string;
@@ -9,6 +12,13 @@ export type PostType = {
 };
 
 export const POSTS: PostType[] = [
+  {
+    content: technicalDebtEverydayPost,
+    date: "28.01.2026",
+    title:
+      "How we created more tech debt in 6 months than in a 10-year-old system",
+    url: "technical-debt-everyday",
+  },
   {
     content: developerVsProductMindsetPost,
     date: "11.11.2025",

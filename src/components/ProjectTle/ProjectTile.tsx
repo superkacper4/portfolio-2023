@@ -1,5 +1,4 @@
 import React from "react";
-import A from "../A";
 import P from "../P";
 import {
   StyledA,

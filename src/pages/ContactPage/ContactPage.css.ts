@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import img from "../../img/background.png";
 
 const StyledContactPage = styled.section`
   /* background-color: #1c112b; */
