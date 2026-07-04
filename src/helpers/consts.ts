@@ -2,14 +2,19 @@ export const MOBILE_SCREEN_VALUE = 800;
 
 export const PROJECTS_LIST = [
   {
+    title: "honesthome",
+    desc: "A full-stack real estate platform designed to improve price transparency in the property market. Users can share apartment prices, review buildings and developers, and publish listings for both primary and secondary market properties.",
+    url: ["https://github.com/superkacper4/honest-home"],
+  },
+  {
+    title: "rap gra",
+    desc: "A browser game inspired by Shakes & Fidget, in which players develop their rap career by creating songs, gaining fans, and improving their skills. The game features character progression, music labels, equipment, statistics, a shop, and an auction system for trading items with other players.",
+    url: ["https://github.com/superkacper4/rap-gra-remix"],
+  },
+  {
     title: "VSCD - Version System Control of Documentation",
     desc: "Application which allows you to control version of tech documentation and also to split one big repository into smaller components",
     url: ["https://github.com/superkacper4/vscd_remix"],
-  },
-  {
-    title: "Employee Reviewer",
-    desc: "Web application, which allows to review employees for managers and to employees' review themselves",
-    url: ["https://github.com/superkacper4/remix-employee-review"],
   },
   {
     title: "Trivia Challenge",
@@ -30,14 +35,6 @@ export const PROJECTS_LIST = [
     url: [
       "https://github.com/superkacper4/witcher-story-website",
       "https://superkacper4.github.io/witcher-story-website/",
-    ],
-  },
-  {
-    title: "Bussines-Page",
-    desc: "Old web for software house",
-    url: [
-      "https://github.com/Adaxelx/Business-page",
-      "https://adaxelx.github.io/Business-page/",
     ],
   },
   {
